@@ -1,0 +1,47 @@
+#BigColHold{
+    display:flex;
+    justify-content:center;
+}
+
+#ColumnHolder{
+    display:flex;
+    flex-direction:row;
+    justify-content:center;
+    width:100%;
+    border:1px solid red;
+}
+
+.Column{
+    width:30%;
+    border:1px solid black;
+    height:1000px;
+    display:flex;
+    justify-content:center;
+    flex-direction:column;
+}
+
+#Heading{
+    display:flex;
+    justify-content: center;
+}
+
+#InputArea{
+    display:flex;
+    justify-content: space-around;
+}
+
+input, #Button{
+    width:25%;
+    margin-bottom:25px;
+    height:20px;
+}
+
+h2{
+    margin-bottom:25px;
+}
+
+.Box{
+    border:1px solid orange;
+    margin:5px;
+    height:50px;
+}
